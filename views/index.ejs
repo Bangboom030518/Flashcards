@@ -1,0 +1,20 @@
+<%
+    var main = main || 'study'
+    var mainVariables = mainVariables || {}
+%>
+
+<!DOCTYPE html>
+<html lang='en'>
+
+    <head>
+        <%- include('./partials/head') %>  
+    </head>
+
+    <body>
+        <%- include('./partials/navbar') %>
+        <main>
+            <%- include(`./partials/${main}`, mainVariables) %>
+        </main>
+    </body>
+
+</html>

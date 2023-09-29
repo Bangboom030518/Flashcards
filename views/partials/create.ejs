@@ -1,0 +1,50 @@
+<h1>Create</h1>
+<section class='card-set'>
+    <h2>Options</h2>
+    <form method='POST' class='card-primary-outline' id='create-form'>
+        <div class='input input-primary'>
+            <input type='text' autocomplete='off' required name='set-name' id='set-name'>
+            <label for='set-name'>Enter Name</label>
+            <span></span>
+        </div>
+        <div class='textarea textarea-primary'>
+            <textarea type='text' autocomplete='off' required name='set-description' id='set-description' class='text-input'></textarea>
+            <label for='set-description'>Enter Description</label>
+            <span></span>
+        </div>
+        <hr class='horizontal-divider'>
+        <article class='card-container' id='create-card-container'>
+            <fieldset class='card-primary create-card' id='create-card-1'>
+                <h3>1</h3>
+                <div class='textarea textarea-secondary'>
+                    <textarea type='text' autocomplete='off' required name='card-term-1' id='card-term-1' class='text-input card-term'></textarea>
+                    <label for='card-name'>Term</label>
+                    <span></span>
+                </div>
+                <div class='textarea textarea-secondary'>
+                    <textarea type='text' autocomplete='off' required name='card-definition-1' id='card-definition-1' class='text-input card-term'></textarea>
+                    <label for='card-definition'>Definition</label>
+                    <span></span>
+                </div>
+            </fieldset>
+            <!--<fieldset class='card-primary create-card' id='create-card-1'>
+                <h3>2</h3>
+                <div class='textarea textarea-secondary'>
+                    <textarea type='text' autocomplete='off' required name='card-term-2' id='card-term-2' class='text-input card-term'></textarea>
+                    <label for='card-name'>Term</label>
+                    <span></span>
+                </div>
+                <div class='textarea textarea-secondary'>
+                    <textarea type='text' autocomplete='off' required name='card-definition-2' id='card-definition-2' class='text-input card-term'></textarea>
+                    <label for='card-definition'>Definition</label>
+                    <span></span>
+                </div>
+            </fieldset>-->
+        </article>
+        <button type='button' class='btn-primary-outline' id='create-card'>New Card</button>
+        <fieldset class='btn-container'>
+            <button class='btn-primary' type='submit'>Save</button>
+            <button class='btn-warn' type='reset'>Cancel</button>
+        </fieldset>
+    </form>
+</section>

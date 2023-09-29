@@ -1,0 +1,8 @@
+{
+    "name": "Hipokampus Learning",
+    "description": "Your education, in one place",
+    "repository": "https://git.heroku.com/hipokampus.git",
+    "logo": "./public/favion.ico",
+    "keywords": ["education", "flashcards", "revision"],
+    "image": "heroku/nodejs"
+}

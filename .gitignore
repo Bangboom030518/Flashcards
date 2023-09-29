@@ -1,0 +1,8 @@
+.vscode
+commit.ps1
+sass.ps1
+tsconfig.json
+public/sass
+public/typescript
+public/tsconfig.json
+*.ts

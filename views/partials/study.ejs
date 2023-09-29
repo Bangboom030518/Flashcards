@@ -1,0 +1,120 @@
+<h1>Study</h1>
+<section class='card-set'>
+    <h2>Flashcards</h2>
+    <form class='card-primary-outline'>
+        <button type='button' class='btn-options btn-primary-outline'>
+            <img src='icons/options.svg' alt='options'>
+
+            <p>Options</p>
+        </button>
+
+        <input type='checkbox' class='flip-checkbox' name='flip-checkbox' id='flip-checkbox' autofocus>
+
+        <label class='flip-container' for='flip-checkbox'>
+            <div class='flip card-primary'>
+                <label class='btn-star'>
+                    <input type='checkbox' class='toggle-star'>
+
+                    <img src='icons/star.svg' class='star' alt=''>
+
+                    <img src='icons/star-gold.svg' class='star-selected' alt=''>
+                </label>
+
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores voluptates cum nisi, perferendis porro saepe. Aspernatur nesciunt mollitia nulla, saepe aliquid, ut beatae dolorem nobis cum velit iure eveniet quidem? Doloribus quod recusandae rem fugiat labore quasi laudantium praesentium, similique ad id. Quasi, ipsam laboriosam et blanditiis voluptatum magni eligendi?
+                </p>
+            </div>
+
+            <div class='flip card-primary'>
+                <label class='btn-star'>
+                    <input type='checkbox' class='toggle-star'>
+                    <img src='icons/star.svg' class='star' alt=''>
+                    <img src='icons/star-gold.svg' class='star-selected' alt=''>
+                </label>
+
+                <p>
+                    Salllllllllly
+                </p>
+            </div>
+        </label>
+
+        <fieldset class='btn-container'>
+            <button class='btn-primary' type='submit'>Got it</button>
+            <button class='btn-warn' type='reset'>Try again</button>
+        </fieldset>
+    </form>
+</section>
+
+<section class='card-set'>
+    <h2>Write</h2>
+
+    <form class='card-primary-outline' method='dialog'>
+        <h3>Question</h3>
+
+        <div class='input input-primary'>
+            <input type='text' name='type-answer' id='type-answer' autocomplete='email' required>
+            <label for='type-answer'>Type Answer</label>
+            <span></span>
+        </div>
+
+        <fieldset class='btn-container'>
+            <button class='btn-primary' type='submit'>Check</button>
+            <button class='btn-warn' type='reset'>Skip</button>
+        </fieldset>
+    </form>
+</section>
+
+<section class='card-set'>
+    <h2>Multiple Choice</h2>
+
+    <form class='card-primary-outline' method='dialog'>
+        <h3>Question</h3>
+
+        <fieldset class='radio-list'>
+            <div class='radio-container'>
+                <label for='option1'>Option 1</label>
+
+                <label class='radio-button'>
+                    <input type='radio' name='answer' id='option1'>
+
+                    <span class='checkmark'></span>
+                </label>
+            </div>
+
+            <div class='radio-container'>
+                <label for='option2'>Option 2</label>
+
+                <label class='radio-button'>
+                    <input type='radio' name='answer' id='option2'>
+
+                    <span class='checkmark'></span>
+                </label>
+            </div>
+
+            <div class='radio-container'>
+                <label for='option3'>Option 3</label>
+
+                <label class='radio-button'>
+                    <input type='radio' name='answer' id='option3'>
+
+                    <span class='checkmark'></span>
+                </label>
+            </div>
+
+            <div class='radio-container'>
+                <label for='option4'>Option 4</label>
+
+                <label class='radio-button'>
+                    <input type='radio' name='answer' id='option4'>
+
+                    <span class='checkmark'></span>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset class='btn-container'>
+            <button class='btn-primary' type='submit'>Check</button>
+            <button class='btn-warn' type='reset'>Skip</button>
+        </fieldset>
+    </form>
+</section>
